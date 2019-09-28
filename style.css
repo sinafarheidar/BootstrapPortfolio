@@ -1,0 +1,74 @@
+/* About Me Page */
+
+.long {
+    height: 80px;
+}
+
+.picsize {
+    height: 20%;
+    width: 20%;
+}
+
+.aboutme {
+    color: gray;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.tealbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 240px;
+    height: 80px;
+    margin: 0;
+    left: 358px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tealfont {
+    color: #4aaaa5;
+}
+
+.hugewhitebox {
+
+    width: 960px;
+    height: 500px;
+    background-color: white;
+    margin-top: 80px;
+    border: 1px solid gray;
+
+}
+
+.lefter {
+    position: relative;
+    left: 20px;
+}
+
+.grayfont {
+color: #777777;
+}
+
+body {
+    background-image: url(../BootstrapPortfolio/images/circles-dark.png)
+}
+
+h1 {
+    font-family: "Arial', 'Helvetica Neue', Helvetica, sans-serif;"
+}
+
+.img1 {
+    height: 150px;
+    width: 150px;
+}
+@media (max-width: 767px) {
+    .hugewhitebox {
+        width: 960px;
+        height: 700px;
+        background-color: white;
+        margin-top: 80px;
+        border: 1px solid gray;
+    }
+    
+}
+/* Contact Me Page */
